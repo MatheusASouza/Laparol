@@ -422,6 +422,59 @@ textarea.input {
   background-color: #1E1F29;
 
 }
+.cabecalho{
+  display: flex;
+  align-items: center;
+  position: relative;
+  background: url(../img/rolamentoindustrial.jpg);
+    background-position-x: 0%;
+    background-position-y: 50%;
+    background-size: auto;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  opacity: 0.8;
+}
+
+
+.cabecalho-text h2 {
+  color: #fff;
+  font-size: 54px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cabecalho-text h3 {
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-contact {
+  background-color: #ff5e15;
+  display: inline-block;
+  width: 200px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 3px;
+  text-transform: capitalize;
+  color: #fff;
+  box-shadow: 0 5px 20px rgba(0,0,0,.4);
+  border: 1px solid #ff5e15;
+  transition-duration: 0.8s;
+  text-transform: uppercase;
+}
+
+.btn-contact:hover {
+  background-color: #9e3e11;
+  box-shadow: 0 5px 20px rgba(0,0,0,.4);
+  transition-duration: 0.8s;
+  border: 1px solid #9e3e11;
+  color: #fff;
+}
 
 .header-links li {
   display: inline-block;
